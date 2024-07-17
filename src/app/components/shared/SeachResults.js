@@ -26,7 +26,7 @@ export default function SearchResults({ searchText, results }){
 
    return (
       <div className={styles.resultsContainer}>
-         {results.map((result) => <RenderItem result={result} /> )}
+         {results.map((result, index) => <RenderItem key={index} result={result} /> )}
       </div>
    )
 }
