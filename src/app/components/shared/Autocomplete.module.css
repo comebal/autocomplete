@@ -1,0 +1,23 @@
+.container{
+   box-shadow: 0px 4px 8px 4px rgba(224, 228, 229, 0.35);
+   background: #FFF;
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+   padding: 8px 0;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+.suggestion{
+   padding: 10px 24px;
+   cursor: pointer;
+}
+
+.suggestion:hover, .highlight{
+   background: #f0f6ff;
+}
+
+.suggestion span{
+   font-weight: 600;
+}

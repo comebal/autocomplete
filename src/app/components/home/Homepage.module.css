@@ -1,0 +1,83 @@
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 300;
+   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+.homepage{
+   font-family: 'Open Sans';
+   background: #FFF;
+   color: #282828;
+}
+
+.search{
+   box-shadow: 0px 4px 8px 4px rgba(224, 228, 229, 0.35);
+   padding: 30px 15px;
+}
+
+.container{
+   width: 100%;
+   margin: 0px auto;
+   max-width: 1120px;
+}
+
+.inputContainer{
+   display: flex;
+}
+
+.result{
+   margin-top: 25px;
+   min-height: 100vh;
+   padding: 0px 15px 45px 15px;
+}
+
+h2.heading{
+   color: #282828;
+   font-size: 16px;
+   line-height: 28px;
+   font-weight: 600;
+}
+
+.error{
+   border: 1px solid #ff2c2c;
+   color: #ff2c2c;
+   padding: 8px;
+   border-radius: 8px;
+}
+
+.loading{
+   color: #1C76D5;
+   border: 1px solid #1C76D5;
+   padding: 9px;
+   border-radius: 8px;
+}
+
+@media (min-width: 1120px) {
+   .search{
+      padding: 80px 0;
+   }
+
+   .result{
+      margin-top: 48px;
+      padding: 0px 0px 45px 0px;
+   }
+
+   h2.heading{
+      font-size: 22px;
+   }
+}
