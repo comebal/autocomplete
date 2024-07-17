@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function SearchResults({ searchText, results }){
    
    const renderDescription = (suggestion) => {
-      var regEx = new RegExp(searchText, "ig");
+      var regEx = new RegExp(searchText, "gi");
       return suggestion.replaceAll(regEx, `<span>${searchText}</span>`);
    }
 

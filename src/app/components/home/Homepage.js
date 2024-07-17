@@ -21,6 +21,8 @@ export default function Homepage(){
       setIsLoading(true);
 
       const search = query || searchText;
+      handleUpdateSearch(search);
+      
       const results = await fetch(`https://gist.githubusercontent.com/yuhong90/b5544baebde4bfe9fe2d12e8e5502cbf/raw/44deafab00fc808ed7fa0e59a8bc959d255b9785/queryResult.json?search=${search.trim()}`, {
          method: 'GET',
          cache: 'no-store',
