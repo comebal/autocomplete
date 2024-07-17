@@ -18,6 +18,7 @@ export default function Homepage(){
    }
 
    const getResults = async (query) => {
+      window.scrollTo(0, 0);
       setIsLoading(true);
 
       const search = query || searchText;

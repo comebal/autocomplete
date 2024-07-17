@@ -20,7 +20,7 @@ export default function Input(props){
    }
 
    let iconElem;
-   if (closeIcon && value.length > 0) {
+   if (closeIcon && value?.length > 0) {
       iconElem = <Image onClick={() => closeSearch()} width={12} height={12} src={closeIcon} alt='Close Icon' className={styles.icon} />
    }
 
